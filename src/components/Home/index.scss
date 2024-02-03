@@ -1,0 +1,96 @@
+#home {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    h1 {
+      margin: 30px 0 50px 0;
+    }
+    .text {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 90%;
+      .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 337px;
+        height: 300px;
+        border-radius: 15px;
+        background-color: rgb(221, 216, 216);
+        .edit {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 700px;
+          height: 500px;
+          background-color: white;
+          border-radius: 30px;
+          border: 2px solid black;
+          input {
+            width: 549px;
+            height: 67px;
+            border-radius: 10px;
+            font-size: 23px;
+            padding-left: 20px;
+            outline: none;
+            margin: 15px 0;
+          }
+          .file {
+            background-color: white;
+            border: 2px solid black;
+          }
+          button {
+            width: 254.1px;
+            height: 70px;
+            border-radius: 10px;
+            font-size: 26px;
+            background: gold;
+            border: none;
+            color: white;
+          }
+          h1 {
+            margin: 10px -92% 35px 0;
+          }
+        }
+        img {
+          width: 301px;
+          height: 167px;
+          border-radius: 10px;
+          border: 2px solid black;
+          object-fit: cover;
+        }
+        .flex {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        h2 {
+          font-size: 27px;
+          font-weight: 400;
+          letter-spacing: 2px;
+        }
+        button {
+          width: 144px;
+          height: 40px;
+          border-radius: 10px;
+          font-size: 20px;
+          background-color: gold;
+          color: white;
+          border: none;
+        }
+        .editBtn {
+          background: green;
+          width: 80px;
+        }
+      }
+    }
+  }
+}

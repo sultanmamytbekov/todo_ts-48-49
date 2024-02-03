@@ -1,0 +1,60 @@
+#edit {
+    .edit {
+        h1{
+          text-align: center;
+        }
+      .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .text {
+          .from{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 90vh;
+            input {
+              width: 549px;
+              height: 67px;
+              border-radius: 10px;
+              font-size: 23px;
+              padding-left: 20px;
+              outline: none;
+              margin: 15px 0;
+            }
+            button {
+              width: 254.1px;
+              height: 80px;
+              border-radius: 10px;
+              font-size: 26px;
+              background: gold;
+              border: none;
+              color: white;
+              margin-top: 70px;
+            }
+            .file {
+              background-color: white;
+              border: 2px solid black;
+              width: 350px;
+            }
+          }
+          
+        }
+        .block {
+          width: 477px;
+          height: 289px;
+          border-radius: 10px;
+          background-color: rgb(191, 181, 181);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          h1{
+              font-size: 36px;
+              font-weight: 400;
+              letter-spacing: 2px;
+          }
+        }
+      }
+    }
+  }
+  
